@@ -1,1 +1,1 @@
-web: symfony serve --no-tls --port 80
+web: php -S 0.0.0.0:80 -t public/
