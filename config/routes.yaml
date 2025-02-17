@@ -3,3 +3,10 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+home:
+    path: /
+    controller: App\Controller\ClimaController::home
+
+app_clima_index:
+    path: /clima
+    controller: App\Controller\ClimaController::index
