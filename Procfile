@@ -1,1 +1,1 @@
-web: php -S 0.0.0.0:8080 -t public
+php -S 0.0.0.0:8000 -t public
