@@ -1,0 +1,11 @@
+name: clima-tiempo
+services:
+  web:
+    type: php:9.1.0 
+    build:
+      commands:
+        - composer install --no-dev --optimize-autoloader
+    ports:
+      - 80
+    env:
+      APP_ENV: prod
