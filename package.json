@@ -8,6 +8,7 @@
         "npm": "9.x"
     },
     "scripts": {
+        "preinstall": "npm cache clean --force",
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
