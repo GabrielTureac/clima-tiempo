@@ -1,6 +1,6 @@
 [build]
-builder = "heroku/nodejs"
-build_command = "npm install && npm run build"
+builder = "heroku/php"
+build_command = "npm install && npm run build && composer install"
 
 [start]
 start_command = "php -S 0.0.0.0:8000 -t public"
