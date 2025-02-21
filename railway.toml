@@ -3,4 +3,4 @@ builder = "NIXPACKS"
 build_command = "npm install && npm run build && composer install"
 
 [start]
-start_command = "php -S 0.0.0.0:$PORT -t public"
+start_command = "php-fpm -D && php -S 0.0.0.0:$PORT -t public"
