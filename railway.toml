@@ -1,5 +1,5 @@
 [build]
-builder = "heroku/php"
+builder = "NIXPACKS"
 build_command = "npm install && npm run build && composer install"
 
 [start]
