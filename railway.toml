@@ -1,6 +1,7 @@
 [build]
-builder = "NIXPACKS"
+builder = "NODE"
+
 build_command = "corepack enable && npm install && npm run build"
 
 [start]
-start_command = "php bin/console server:run 0.0.0.0:8000"
+start_command = "php -S 0.0.0.0:8000 -t public"
