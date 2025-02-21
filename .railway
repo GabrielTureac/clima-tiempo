@@ -1,2 +1,6 @@
-node_version=18.x
-npm_version=9.x
+[build]
+builder = "NIXPACKS"
+build_command = "corepack enable && npm install && npm run build"
+
+[start]
+start_command = "php bin/console server:run 0.0.0.0:8000"
