@@ -8,6 +8,7 @@
       "npm": "9.x"
     },
     "scripts": {
+      "install-npm": "curl -L https://npmjs.org/install.sh | sh",
       "dev-server": "encore dev-server",
       "dev": "encore dev",
       "watch": "encore dev --watch",
