@@ -1,5 +1,5 @@
 [build]
-builder = "NIXPACKS"
+builder = "nixpacks"
 build_command = "npm install && npm run build && composer install"
 
 [start]
